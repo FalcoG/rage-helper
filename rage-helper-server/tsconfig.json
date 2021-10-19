@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "types": ["@types/ragemp-s"],
+    "resolveJsonModule": true
+  },
+  "include": [
+    "**/*",
+    "../*.d.ts",
+  ]
+}

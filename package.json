@@ -1,0 +1,32 @@
+{
+  "name": "rage-helper",
+  "version": "1.0.0",
+  "description": "Helper functions to make the usage of RAGE.MP easier",
+  "main": "index.js",
+  "scripts": {
+    "develop:build": "npx tsc",
+    "develop:deploy": "cp -r dist/rage-helper-client ../rage-rpg/.server-bin/client_packages/ && cp -r dist/rage-helper-server ../rage-rpg/.server-bin/packages/",
+    "develop": "npm run develop:build && npm run develop:deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "typings.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FalcoG/rage-helper.git"
+  },
+  "author": "Falco Gerritsjans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FalcoG/rage-helper/issues"
+  },
+  "homepage": "https://github.com/FalcoG/rage-helper#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/ragemp-c": "github:CocaColaBear/types-ragemp-c#v2.0",
+    "@types/ragemp-s": "github:CocaColaBear/types-ragemp-s#v2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  }
+}
