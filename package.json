@@ -1,10 +1,12 @@
 {
   "name": "rage-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper functions to make the usage of RAGE.MP easier",
   "main": "dist/pkg/src/index.js",
   "types": "dist/pkg/src/index.d.ts",
-  "files": ["dist/pkg"],
+  "files": [
+    "dist/pkg"
+  ],
   "scripts": {
     "develop:client": "npx tsc -p rage-helper-client/tsconfig.json --outDir dist/rage-helper-client",
     "develop:server": "npx tsc -p rage-helper-server/tsconfig.json --outDir dist/rage-helper-server",
