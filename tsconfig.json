@@ -5,5 +5,9 @@
     "baseUrl": ".",
     "resolveJsonModule": true,
     "declaration": true
-  }
+  },
+  "include": [
+    "src/**/*",
+    "*.d.ts"
+  ]
 }

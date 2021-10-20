@@ -1,3 +1,5 @@
+type BusStops = BusStop[]
+
 interface BusStop {
   Name: string
   Position: {
