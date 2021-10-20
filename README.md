@@ -1,6 +1,6 @@
 # Rage Helper
-![https://www.npmjs.com/package/rage-helper](https://img.shields.io/npm/v/rage-helper.svg?style=flat)
-![https://github.com/FalcoG/rage-helper/blob/main/typings.d.ts](https://img.shields.io/badge/typedef-.d.ts-blue.svg?style=flat&longCache=true)
+[![npm](https://img.shields.io/npm/v/rage-helper.svg?style=flat)](https://www.npmjs.com/package/rage-helper)
+[![typedef](https://img.shields.io/badge/typedef-.d.ts-blue.svg?style=flat&longCache=true)](https://github.com/FalcoG/rage-helper/blob/main/typings.d.ts)
 
 ## Installation
 
