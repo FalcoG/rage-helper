@@ -13,7 +13,7 @@
     "develop:build": "npm run develop:client && npm run develop:server",
     "develop:deploy": "cp -r dist/rage-helper-client ../rage-rpg/.server-bin/client_packages/ && cp -r dist/rage-helper-server ../rage-rpg/.server-bin/packages/",
     "develop": "npm run develop:build && npm run develop:deploy",
-    "package": "npx tsc --outDir dist/pkg && cp typings.d.ts dist/pkg/",
+    "package": "npx tsc --outDir dist/pkg",
     "prepare": "npm run package",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
