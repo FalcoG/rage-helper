@@ -1,4 +1,16 @@
 {
+  "7": {
+    "setback": true,
+    "flipped": false
+  },
+  "17": {
+    "setback": true,
+    "flipped": false
+  },
+  "18": {
+    "setback": true,
+    "flipped": false
+  },
   "20": {
     "setback": true,
     "flipped": false
@@ -7,7 +19,63 @@
     "setback": true,
     "flipped": false
   },
+  "23": {
+    "setback": false,
+    "flipped": true
+  },
+  "24": {
+    "setback": false,
+    "flipped": true
+  },
+  "25": {
+    "setback": false,
+    "flipped": true
+  },
   "26": {
+    "setback": false,
+    "flipped": true
+  },
+  "27": {
+    "setback": false,
+    "flipped": true
+  },
+  "33": {
+    "setback": true,
+    "flipped": false
+  },
+  "34": {
+    "setback": true,
+    "flipped": false
+  },
+  "35": {
+    "setback": true,
+    "flipped": false
+  },
+  "36": {
+    "setback": true,
+    "flipped": false
+  },
+  "37": {
+    "setback": true,
+    "flipped": false
+  },
+  "38": {
+    "setback": true,
+    "flipped": false
+  },
+  "39": {
+    "setback": true,
+    "flipped": false
+  },
+  "40": {
+    "setback": true,
+    "flipped": false
+  },
+  "46": {
+    "setback": false,
+    "flipped": true
+  },
+  "47": {
     "setback": false,
     "flipped": true
   }
