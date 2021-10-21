@@ -1,0 +1,14 @@
+{
+  "20": {
+    "setback": true,
+    "flipped": false
+  },
+  "22": {
+    "setback": true,
+    "flipped": false
+  },
+  "26": {
+    "setback": false,
+    "flipped": true
+  }
+}

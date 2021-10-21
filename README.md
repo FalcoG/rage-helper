@@ -7,12 +7,12 @@
 ```npm install rage-helper```
 
 ## Configuration
-In order to use the typings, you should add it to your TSConfig compilerOptions.
+In order to use the types, you should add it to your TSConfig compilerOptions.
 
 ```json
 {
   "compilerOptions": {
-    "types": ["rage-helper/typings"]
+    "types": ["rage-helper"]
   }
 }
 
@@ -22,5 +22,10 @@ In order to use the typings, you should add it to your TSConfig compilerOptions.
 ```javascript
 import { busStops } from 'rage-helper'
 
-busStops.forEach(...)
+busStops.forEach(busStop => {
+  console.log(busStop.Name)
+  console.log(busStop.Position) // X, Y, Z
+  console.log(busStop.Rotation) // X, Y, Z
+  console.log(busStop.Meta) // flipped, setback
+})
 ```
