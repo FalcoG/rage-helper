@@ -1,7 +1,7 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
-    "types": ["@types/ragemp-s"],
+    "types": ["@types/ragemp-s", "rage-helper"],
     "resolveJsonModule": true
   },
   "include": [

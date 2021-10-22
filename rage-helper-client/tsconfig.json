@@ -1,7 +1,7 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
-    "types": ["@types/ragemp-c"],
+    "types": ["@types/ragemp-c", "rage-helper"],
   },
   "include": [
     "**/*",

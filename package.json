@@ -8,8 +8,8 @@
     "dist/pkg"
   ],
   "scripts": {
-    "develop:client": "npx tsc -p rage-helper-client/tsconfig.json --outDir dist/rage-helper-client",
-    "develop:server": "npx tsc -p rage-helper-server/tsconfig.json --outDir dist/rage-helper-server",
+    "develop:client": "npx tsc -p rage-helper-client/tsconfig.json --outDir dist/rage-helper-client/",
+    "develop:server": "npx tsc -p rage-helper-server/tsconfig.json --outDir dist/rage-helper-server/",
     "develop:build": "npm run develop:client && npm run develop:server",
     "develop:deploy": "cp -r dist/rage-helper-client ../rage-rpg/.server-bin/client_packages/ && cp -r dist/rage-helper-server ../rage-rpg/.server-bin/packages/",
     "develop": "npm run develop:build && npm run develop:deploy",
