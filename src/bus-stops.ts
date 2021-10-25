@@ -19,7 +19,7 @@ interface BusStopRaw {
   Meta?: BusStopMeta
 }
 
-interface BusStop extends BusStopRaw {
+export interface BusStop extends BusStopRaw {
   Meta: BusStopMeta
 }
 
