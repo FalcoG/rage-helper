@@ -1,6 +1,6 @@
 import busStops, { BusStop } from './bus-stops'
 import vehicles, { Vehicle } from './vehicles'
-import postBoxes from './post-boxes'
+import worldObjects from './world-objects'
 
 export interface WorldObject {
   Name: string
@@ -16,4 +16,4 @@ export interface WorldObject {
   }
 }
 
-export { busStops, BusStop, vehicles, Vehicle, postBoxes }
+export { busStops, BusStop, vehicles, Vehicle, worldObjects }

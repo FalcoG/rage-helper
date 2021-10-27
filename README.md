@@ -31,14 +31,15 @@ busStops.forEach(busStop => {
   console.log(busStop.Meta) // flipped, setback
 })
 ```
-- Mail boxes
+- worldObjects.mailBoxes
+- worldObjects.gasPumps
 
 ### Vehicles
 ```javascript
 import { vehicles } from 'rage-helper'
 ```
 Available functions for vehicles:
-- Vehicles.getVehicleByName(name: string)
-- Vehicles.getVehicleByHash(hash: number)
-- Vehicles.getVehiclesByFlag(flag: string)
-- Vehicles.getVehiclesByFlags(flags: string[])
+- vehicles.getVehicleByName(name: string)
+- vehicles.getVehicleByHash(hash: number)
+- vehicles.getVehiclesByFlag(flag: string)
+- vehicles.getVehiclesByFlags(flags: string[])
