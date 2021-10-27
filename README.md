@@ -19,7 +19,8 @@ In order to use the types, you should add it to your TSConfig compilerOptions.
 ```
 
 ## Usage
-### Bus stops
+### World Objects
+- Bus Stops, example:
 ```javascript
 import { busStops } from 'rage-helper'
 
@@ -30,10 +31,14 @@ busStops.forEach(busStop => {
   console.log(busStop.Meta) // flipped, setback
 })
 ```
+- Mail boxes
 
 ### Vehicles
 ```javascript
 import { vehicles } from 'rage-helper'
 ```
 Available functions for vehicles:
-- Vehicles.getVehicleByHash(hash)
+- Vehicles.getVehicleByName(name: string)
+- Vehicles.getVehicleByHash(hash: number)
+- Vehicles.getVehiclesByFlag(flag: string)
+- Vehicles.getVehiclesByFlags(flags: string[])
