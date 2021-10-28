@@ -31,8 +31,10 @@ busStops.forEach(busStop => {
   console.log(busStop.Meta) // flipped, setback
 })
 ```
-- worldObjects.mailBoxes
+- worldObjects.binsDumpsters
 - worldObjects.gasPumps
+- worldObjects.postBoxes
+- worldObjects.recycleBins
 
 ### Vehicles
 ```javascript
